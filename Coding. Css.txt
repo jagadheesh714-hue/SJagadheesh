@@ -1,0 +1,80 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* Resume container */
+.resume {
+  display: flex;
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Left side */
+.left {
+  width: 30%;
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.left img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.left h2 {
+  margin: 10px 0;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.contact h3 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Right side */
+.right {
+  width: 70%;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #2c3e50;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 0 0 10px 10px;
+}

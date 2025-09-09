@@ -1,0 +1,20 @@
+// 🎂 Auto-update age (Change DOB below in YYYY-MM-DD format)
+const dob = "2002-06-15"; // Example: 15 June 2002
+
+function calculateAge(birthDate) {
+  const today = new Date();
+  const birth = new Date(birthDate);
+  let age = today.getFullYear() - birth.getFullYear();
+  const m = today.getMonth() - birth.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+    age--;
+  }
+  return age;
+}
+
+if (dob) {
+  document.getElementById("age").textContent = "🎂 Age: " + calculateAge(dob);
+}
+
+// 📍 Update location
+document.getElementById("location").textContent = "📍 Coimbatore, Tamil Nadu"; // Change as needed
